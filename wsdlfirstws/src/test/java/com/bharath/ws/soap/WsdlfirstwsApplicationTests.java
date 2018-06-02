@@ -14,12 +14,13 @@ public class WsdlfirstwsApplicationTests {
 	@Test
 	public void contextLoads() {
 	}
-	
+	/*
 	@Test
 	public void IDontKnowWhatImDoing() {
 		CustomerOrdersWsImpl o = new CustomerOrdersWsImpl();
 		o.init();
 		assertEquals("1", o.currentId);
 	}
+	*/
 
 }

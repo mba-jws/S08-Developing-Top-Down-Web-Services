@@ -20,7 +20,7 @@ public class WebServiceConfig {
 	@Bean
 	public Endpoint endpoint() {
 		Endpoint endpoint = new EndpointImpl(bus, new CustomerOrdersWsImpl());
-		endpoint.publish("/customersordersservice");
+		endpoint.publish("/customerordersservice");
 		return endpoint;
 	}
 }
